@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XI DKV 1</title>
+  <link rel="website icon" type="png" href="img/icon.png">
+
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+
+    <!-- SPLASH INTRO -->
+    <div id="splash" aria-hidden="false">
+      <div class="logo">
+        <img src="img/logos.png" alt="Logo Kelas XII" style="width:100%;height:100%;object-fit:contain;">
+      </div>
+      <h1>XI DKV 1</h1>
+      <small>Journey of Adulthood</small>
+      <button class="skip" id="skipSplash">Welcome</button>
+    </div>
+    <!-- END SPLASH INTRO -->
+
+    <!-- NAVBAR -->
+    <nav>
+      <div class="nav-left">
+        <img src="img/logon.png" alt="logo kecil" class="logo-small" />
+        <div class="brand">XI DKV 1</div>
+      </div>
+
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a role="menuitem" href="#home">Beranda</a></li>
+        <li role="none"><a role="menuitem" href="#students">Struktur</a></li>
+        <li role="none"><a role="menuitem" href="#quotes">Quotes</a></li>
+        <li role="none"><a role="menuitem" href="#gallery">Galeri</a></li>
+        <li role="none"><a role="menuitem" href="#events">Event</a></li>
+        <li role="none"><a role="menuitem" href="#sosmed">Sosmed</a></li>
+      </ul>
+
+      <button class="burger" id="burgerBtn" aria-label="Menu"><i class="fa fa-bars"></i></button>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- HERO -->
+    <header id="home" class="hero" role="banner">
+      <!-- background -->
+      <div class="hero-slides" aria-hidden="true">
+        <div class="slide" style="--i:1"></div>
+        <div class="slide" style="--i:2"></div>
+        <div class="slide" style="--i:3"></div>
+        <div class="slide" style="--i:4"></div>
+      </div>
+
+      <div class="hero-logo" aria-hidden="true">
+        <img src="img/logo.png" alt="Logo Kelas (besar)" style="width:100%;height:100%;object-fit:contain" />
+      </div>
+      <h1>XI DKV 1</h1>
+      <p>"Together we grow — Together we shine."<p></p>
+      <p>( Masih Tahap Pengembangan!! )</p>
+    </header>
+    <!-- END HERO -->
+
+    <!-- ABOUT -->
+    <section id="about" class="container reveal">
+      <h2>Tentang Kami</h2><span class="accent"></span>
+      <div class="about-grid">
+        <div class="about-text">
+          <p text-align: justify;>
+            Kami adalah kelas XI DKV 1 SMKN 1 Singgahan, kelompok belajar kreatif yang tumbuh lewat kerja sama, kedisiplinan, dan semangat berkarya.
+Dengan karakter anak DKV yang penuh ide, kami terus mengembangkan kemampuan desain, multimedia, dan komunikasi visual untuk menghadapi dunia kreatif digital yang terus berkembang.
+          </p>
+          <ul>
+            <li><strong>Visi:</strong>
+              <br>Menjadi kelas Desain Komunikasi Visual yang unggul dalam kreativitas, skill desain, attitude, dan profesionalitas, serta siap bersaing di era industri kreatif digital.</li>
+            <li><strong>Misi:</strong>
+            <ol>
+              <li>Mengembangkan kemampuan desain, ilustrasi, fotografi, dan multimedia melalui praktik yang konsisten.</li>
+              <li>Membangun kebiasaan disiplin, kerja sama, dan komunikasi yang baik di lingkungan kelas.</li>
+              <li>Mengikuti perkembangan teknologi dan tren industri kreatif agar siap menghadapi dunia kerja.</li>
+              <li>Menciptakan suasana belajar yang positif, produktif, dan penuh inovasi.</li>
+              <li>Menanamkan nilai etika, tanggung jawab, dan profesionalitas dalam setiap kegiatan.</li>
+            </ol>
+            </li>
+          </ul>
+          <div style="margin-top:12px">
+            <a class="btn-ghost btn-gallery" href="#gallery" aria-label="Lihat Galeri">Lihat Galeri</a>
+          </div>
+        </div>
+        <div class="about-media">
+          <img src="img/about.png" alt="About XI DKV 1" loading="lazy" width="900" height="600">
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- STUDENTS -->
+    <section id="students" class="container reveal">
+      <h2>Structur Class</h2><span class="accent"></span>
+      <div class="students-grid" id="studentsGrid">
+        <article class="student">
+          <img class="photo" src="img/student/herdian.jpg" alt="Bu Dian" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Herdian Widhowati Ika Rini S.pd</h3>
+            <h5>Wali Kelas</h5>
+            <p class="quote">
+              "lorem ipsum dolor sit amet."
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/dee_oryza" title="Instagram Bu Dian"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="student">
+          <img class="photo" src="img/student/barik.webp" alt="barik" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Abdul Barik</h3>
+            <h5>Ketua</h5>
+            <p class="quote">
+              "TUEMP*******K"
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/bariqbaiq_" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="student">
+          <img class="photo" src="img/student/aziz.jpg" alt="Aziz" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Arif Nur Aziz</h3>
+            <h5>Wakil Ketua</h5>
+            <p class="quote">
+              "voli, mancing, futsal, epep"
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/" title="Instagram Aziz"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="student">
+          <img class="photo" src="img/student/zaki.jpg" alt="Zaki" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Ahmad Syifaul Umam Zaki</h3>
+            <h5>Sekretaris 1</h5>
+            <p class="quote">
+              "New text, Insert your text here"
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/_syfumz" title="Instagram Zaki"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="student">
+          <img class="photo" src="img/student/nita.jpg" alt="Nita" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Fitri Anita Dewi</h3>
+            <h5>Sekretaris 2</h5>
+            <p class="quote">
+              "bingung ape ngisi piye."
+              <br><i>-zaki pecel barokah</i>
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/" title="Instagram Nita"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="student">
+          <img class="photo" src="img/student/anjani.jpg" alt="Anjani" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Anjani Pramuditasari Pudyastuti</h3>
+            <h5>Bendahara 1</h5>
+            <p class="quote">
+              "angge angge orong orong."
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/" title="Instagram Anjani"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="student">
+          <img class="photo" src="img/student/adel.jpg" alt="Adel" loading="lazy" width="600" height="450">
+          <div class="content">
+            <h3>Adelya Nirmala Putri</h3>
+            <h5>Bendahara 2</h5>
+            <p class="quote">
+              "minggur esorr adurr mumpurr."
+            </p>
+            <div class="socials">
+              <a href="https://instagram.com/" title="Instagram Adel"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- END STUDENTS -->
+
+    <section id="members" class="container reveal">
+          <h2>Anggota</h2><span class="accent"></span>
+        <ul class="list">
+  <li>Rizqi</li>
+  <li>Dhani</li>
+  <li>Rafi</li>
+  <li>Dopa</li>
+  <li>Putra</li>
+  <li>Arsya</li>
+  <li>Affan</li>
+  <li>Alfin</li>
+  <li>Alif</li>
+  <li>Alfin</li>
+  <li>Annisa</li>
+  <li>April</li>
+  <li>Lia</li>
+  <li>Wulan</li>
+  <li>Bayu</li>
+  <li>Yoga</li>
+  <li>Damar</li>
+  <li>Dinda</li>
+  <li>Ratna</li>
+  <li>Ega</li>
+  <li>Eka</li>
+  <li>Esa</li>
+  <li>Gaby</li>
+  <li>Heni</li>
+  <li>Iim</li>
+  <li>Indah</li>
+  <li>Iqbal</li>
+  <li>Tasya</li>
+        </ul>
+      </section>
+
+    <!-- QUOTES -->
+    <section id="quotes" class="reveal">
+      <div class="container quotes">
+        <h2 style="color:#fff">Class Quotes</h2><span class="accent" style="display:none"></span>
+        <div class="quote-box"><span>"We don’t just design — we express, imagine, and evolve. XI DKV 1, growing with style.</span></div>
+      </div>
+    </section>
+    <!-- END QUOTES -->
+
+    <!-- GALLERY -->
+    <section id="gallery" class="container reveal">
+      <h2>Gallery</h2><span class="accent"></span>
+      <div class="gallery-grid" id="galleryGrid">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery1.jpg" alt="Gallery 1" data-index="0" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery2.jpg" alt="Gallery 2" data-index="1" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery3.jpg" alt="Gallery 3" data-index="2" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery4.jpg" alt="Gallery 4" data-index="3" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery5.jpg" alt="Gallery 5" data-index="4" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery6.jpg" alt="Gallery 6" data-index="5" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery7.jpg" alt="Gallery 7" data-index="6" loading="lazy" width="900" height="600">
+  <img class="gallery-item" tabindex="0" src="img/gallery/gallery8.jpg" alt="Gallery 8" data-index="7" loading="lazy" width="900" height="600">
+        <!-- tambahin cuy, pastiin data-index nya berurutan 0 sampai sekian... -->
+      </div>
+    </section>
+    <!-- END GALLERY -->
+
+    <!-- EVENTS -->
+    <section id="events" class="container reveal">
+      <h2>Class Events</h2><span class="accent"></span>
+      <p style="color:#4b5b6e;margin-top:6px;">Beberapa kegiatan yang telah kami laksanakan.</p>
+
+      <div class="events-grid" id="eventsGrid">
+        <article class="event-card" tabindex="0" role="button"
+                 data-title="Kunjungan Industri"
+                 data-date="29 Oktober 2025"
+                 data-location="Universitas Amikom Yogyakarta"
+                 data-img="img/event/event1.jpg"
+                 data-desc="Kunjungan Industri kelas XI DKV dan DPIB SMKN 1 Singgahan dilaksanakan di Universitas Amikom Yogyakarta sebagai bagian dari kegiatan pembelajaran untuk memperluas wawasan siswa di bidang kreatif dan teknologi.
+
+Melalui kunjungan ini, siswa-siswi dapat melihat langsung lingkungan kampus yang modern, kreatif, dan berstandar industri. Mereka dikenalkan pada berbagai fasilitas, proses kerja, serta teknologi yang berkaitan dengan jurusan masing-masing — mulai dari desain komunikasi visual, multimedia, animasi, hingga pemodelan bangunan.
+
+Kegiatan ini bertujuan untuk menambah pengetahuan, memberikan gambaran nyata tentang dunia kerja dan pendidikan lanjut, serta memotivasi siswa agar terus mengembangkan potensi dan keterampilan profesional sesuai minat dan kompetensinya.">
+          <img src="img/event/event1.jpg" alt="Kunjungan Industri">
+          <div class="event-info">
+            <h3>Kunjungan Industri</h3>
+            <div class="date"><i class="fa fa-calendar"></i> 29 Oktober 2025</div>
+            <div class="meta">Universitas Amikom Yogyakarta — Kunjungan Industri</div>
+            <p class="desc">Kunjungan Industri kelas XI DKV dan DPIB SMKN 1 Singgahan dilaksanakan di Universitas Amikom Yogyakarta sebagai bagian dari kegiatan pembelajaran untuk memperluas wawasan siswa di bidang kreatif dan teknologi.
+
+Melalui kunjungan ini, siswa-siswi dapat melihat langsung lingkungan kampus yang modern, kreatif, dan berstandar industri. Mereka dikenalkan pada berbagai fasilitas, proses kerja, serta teknologi yang berkaitan dengan jurusan masing-masing — mulai dari desain komunikasi visual, multimedia, animasi, hingga pemodelan bangunan.
+
+Kegiatan ini bertujuan untuk menambah pengetahuan, memberikan gambaran nyata tentang dunia kerja dan pendidikan lanjut, serta memotivasi siswa agar terus mengembangkan potensi dan keterampilan profesional sesuai minat dan kompetensinya.</p>
+          </div>
+        </article>
+
+        <article class="event-card" tabindex="0" role="button"
+                 data-title="Nama Event"
+                 data-date="29 Oktober 2025"
+                 data-location="Nama Tempat"
+                 data-img="img/event/event2.jpg"
+                 data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus pariatur eum earum fugit possimus dolorum!">
+          <img src="img/event/event2.jpg" alt="Nama Event">
+          <div class="event-info">
+            <h3>Nama Event</h3>
+            <div class="date"><i class="fa fa-calendar"></i> 29 Oktober 2025</div>
+            <div class="meta">Tempat — Kategori</div>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus pariatur eum earum fugit possimus dolorum!</p>
+          </div>
+        </article>
+
+        <article class="event-card" tabindex="0" role="button"
+                 data-title="Nama Event"
+                 data-date="29 Oktober 2025"
+                 data-location="Nama Tempat"
+                 data-img="img/event/event2.jpg"
+                 data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus pariatur eum earum fugit possimus dolorum!">
+          <img src="img/event/event2.jpg" alt="Nama Event">
+          <div class="event-info">
+            <h3>Nama Event</h3>
+            <div class="date"><i class="fa fa-calendar"></i> 29 Oktober 2025</div>
+            <div class="meta">Tempat — Kategori</div>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, voluptatibus pariatur eum earum fugit possimus dolorum!</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+    <!-- END EVENTS -->
+
+    <!-- SOSMED -->
+    <section id="sosmed" class="container reveal" style="text-align:center">
+      <h2>Follow Our Journey</h2><span class="accent"></span>
+      <div style="display:flex;gap:16px;justify-content:center;margin-top:12px;flex-wrap:wrap">
+        <a href="https://www.instagram.com/decovisone" style="padding:8px 12px;border-radius:999px;border:1px solid #e6eef6;background:#fff;display:inline-flex;align-items:center;gap:8px"><i class="fab fa-instagram"></i> Instagram</a>
+        
+        <a href="https://www.tiktok.com/@dekave1.skansing" style="padding:8px 12px;border-radius:999px;border:1px solid #e6eef6;background:#fff;display:inline-flex;align-items:center;gap:8px"><i class="fab fa-tiktok"></i> TikTok</a>
+
+        <a href="https://www.youtube.com/@dekave1.skansing" style="padding:8px 12px;border-radius:999px;border:1px solid #e6eef6;background:#fff;display:inline-flex;align-items:center;gap:8px"><i class="fab fa-youtube"></i> Youtube</a>
+
+      </div>
+    </section>
+    <!-- END SOSMED -->
+
+    <!-- FOOTER -->
+    <footer><small>© 2025 XI DKV 1</small></footer>
+
+    <!-- LIGHTBOX ALBUM -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <div class="frame" role="dialog" aria-modal="true">
+        <button class="close" id="lbClose" aria-label="Close (Esc)"><i class="fa fa-times"></i></button>
+        <button class="prev" id="lbPrev" aria-label="Previous"><i class="fa fa-chevron-left"></i></button>
+        <div style="max-width:100%;display:flex;align-items:center;justify-content:center">
+          <img src="" alt="" id="lbImage">
+        </div>
+        <button class="next" id="lbNext" aria-label="Next"><i class="fa fa-chevron-right"></i></button>
+        <div class="caption" id="lbCaption">1 / 4</div>
+      </div>
+    </div>
+    <!-- END LIGHTBOX ALBUM -->
+
+    <!-- EVENT MODAL -->
+    <div class="event-modal" id="eventModal" aria-hidden="true">
+      <div class="event-frame" role="dialog" aria-modal="true">
+        <button class="close" id="eventClose" aria-label="Close Event"><i class="fa fa-times"></i></button>
+        <img src="" alt="" id="eventImg">
+        <div class="body">
+          <h3 id="eventTitle">Title</h3>
+          <div class="date" id="eventDate">Date</div>
+          <div class="meta" id="eventLocation">Location</div>
+          <p class="desc" id="eventDesc">Description</p>
+          <div class="event-actions">
+            <a class="btn-ghost" id="btnOpenGallery" href="#gallery">Lihat Galeri</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END EVENT MODAL -->
+
+    <!-- AUDIO (musik) -->
+    <audio id="bgAudio" loop preload="auto" src="media/music.mp3"></audio>
+
+    <!-- STUDENT MODAL -->
+    <div class="student-modal" id="studentModal" aria-hidden="true">
+      <div class="student-frame" role="dialog" aria-modal="true">
+        <button class="close" id="studentClose" aria-label="Close"><i class="fa fa-times"></i></button>
+        <img src="" alt="" id="studentImg">
+        <div class="body">
+          <h3 id="studentName">Nama</h3>
+          <h5 id="studentJabatan"></h5>
+          <p id="studentBio">Bio singkat atau quote siswa akan muncul di sini.</p>
+        </div>
+      </div>
+    </div>
+    <!-- END STUDENT MODAL -->
+
+    <!-- SCROLL TO TOP -->
+    <button id="scrollTop" class="scroll-top" title="Kembali ke atas" aria-label="Scroll to top"><i class="fa fa-chevron-up"></i></button>
+
+    <!-- AUDIO FAB & PANEL -->
+    <div class="audio-fab" id="audioFab" title="Music control (tap)">
+      <i class="fa fa-music" id="audioFabIcon" style="color:#1d3c6a;font-size:18px"></i>
+    </div>
+
+    <div class="audio-panel" id="audioPanel" aria-hidden="true">
+      <div style="display:flex;align-items:center;justify-content:space-between">
+        <strong style="color:#1d3c6a">Music</strong>
+        <button id="audioClose" title="Close"><i class="fa fa-times"></i></button>
+      </div>
+      <div class="controls">
+        <button id="playBtn" title="Play / Pause"><i class="fa fa-play"></i></button>
+        <button id="muteBtn" title="Mute / Unmute"><i class="fa fa-volume-high"></i></button>
+        <input id="volRange" type="range" min="0" max="1" step="0.01" value="0.12" aria-label="Volume slider">
+      </div>
+    </div>
+
+  </main>
+
+  <!-- SCRIPT JAWA -->
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
+
